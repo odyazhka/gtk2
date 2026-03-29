@@ -1,9 +1,9 @@
 menubar, menu, menuitem {
-    background-color: #D1E8FF;
+    background-color: #f2f5ff;
     color: #000000;
 }
 
 menubar > menuitem:hover, menu > menuitem:hover {
-    background-color: #A0CFFE;
+    background-color: #e8edff;
     color: #000000 !important; /* !important заставляет шрифт быть черным */
 }
