@@ -1,0 +1,74 @@
+ThemeDescription="Windows 10 White Based theme"
+
+ThemeAuthor="ItzSelenux"
+
+Look=flat
+TitleBarHeight=30
+#TitleBarJustify=50
+TitleBarJustification=0
+TitleBarFontNameXft="Inter:size11"
+MenuFontNameXft="Inter:size10"
+StatusFontNameXft="Inter:size=10"
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+BorderSizeX=2
+BorderSizeY=2
+CornerSizeX=16
+CornerSizeY=16
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+ColorNormalBorder="rgb:f2/f5/ff"
+ColorActiveBorder="rgb:f2/f5/ff"
+ColorActiveTitleBar="rgb:f2/f5/ff"
+ColorNormalTitleBar="rgb:f2/f5/ff"
+ColorNormalButton="rgb:f2/f5/ff"
+ColorNormalTitleBarText="rgb:1f/1f/1f"
+ColorActiveTitleBarText="rgb:1f/1f/1f"
+ColorNormalMenu="rgb:f2/f5/ff"
+ColorActiveMenuItem="rgb:D9/D9/D9"
+ColorNormalMenuItemText="rgb:1f/1f/1f"
+ColorActiveMenuItemText="rgb:1f/1f/1f"
+ColorDisabledMenuItemText="rgb:80/80/80"
+ColorMoveSizeStatus="rgb:D9/D9/D9"
+ColorMoveSizeStatusText="rgb:1f/1f/1f"
+
+ColorInputSelection="rgb:D9/D9/D9"
+#taskbar parameters
+ColorDefaultTaskBar="rgb:f2/f5/ff"
+ColorNormalTaskBarApp="rgb:f2/f5/ff"
+ColorNormalTaskBarAppText="rgb:1f/1f/1f"
+ColorActiveTaskBarApp="rgb:D9/D9/D9"
+ColorActiveTaskBarAppText="rgb:1f/1f/1f"
+ColorMinimizedTaskBarApp="rgb:f2/f5/ff"
+ColorMinimizedTaskBarAppText="rgb:65/65/65"
+TaskBarSize =40
+#listbox
+ColorListBox="rgb:CC/CC/CC"
+ColorListBoxText="rgb:00/00/00"
+ColorListBoxSelection="rgb:CC/CC/FF"
+ColorListBoxSelectionText="rgb:00/00/00"
+#Dialog box
+ColorDialog="rgb:f2/f5/ff"
+#Tooltip text
+ColorToolTip="rgb:f2/f5/ff"
+ColorToolTipText="rgb:1f/1f/1f"
+#scrollbar
+ColorScrollBar="rgb:C0/C0/C0"
+ColorScrollBarSlider="rgb:C0/C0/C0"
+ColorScrollBarButtonArrow="rgb:C0/C0/C0"
+#Quick switch
+ColorQuickSwitch="rgb:f2/f5/ff"
+ColorQuickSwitchActive="rgb:D9/D9/D9"
+ColorQuickSwitchText="rgb:1f/1f/1f"
+ColorClock="rgb:f2/f5/ff"
+ColorClockText="rgb:1f/1f/1f"
+
+RolloverButtonsSupported=1
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundScaled=1
+DesktopBackgroundImage="wallpaper.jpg"

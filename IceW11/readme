@@ -1,0 +1,26 @@
+Win10Ice is a port of the Windows 10 theme for IceWM,this variants is available
+
+Dark
+Light
+
+--------------instalation----------------
+
+copy the folder on 
+
+/usr/share/icewm/themes/
+
+or in this another folder
+
+/home/"username"/.icewm/themes/
+
+--------------------------------------------
+
+these extras are not necessary for the operation of Win10Ice, but I recommend installing them:
+
+B00merang Windows 10 theme(dark or light)
+B0omerang Windows 10 icons
+Win10OS cursors by yeyushengfan258 (available on Pling)
+lxappearance(to set the B00merang Windows 10 theme and icons, and Win10OS cursors)
+
+
+----ItzSelenux
