@@ -26,3 +26,14 @@ sudo lxappearance
 
 Нажать ПКМ > Настройки > Темы > IceW11
 
+#### Замена иконок звука и громкости
+
+Скачать файлы backlight-brightness.png и emixer.png. Переместить их в домашнюю директорию и заменить командами:
+
+```
+sudo rm /usr/share/icons/hicolor/128x128/apps/emixer.png
+sudo cp ~/emixer.png /usr/share/icons/hicolor/128x128/apps/
+sudo rm /usr/share/pixmaps/backlight-brightness.png
+sudo cp  ~/backlight-brightness.png /usr/share/pixmaps/
+```
+
