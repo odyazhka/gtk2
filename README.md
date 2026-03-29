@@ -5,7 +5,8 @@
 
 Установить иконки:
 
-``` sudo apt install lxappearance papirus-icon-theme fonts-inter
+```
+sudo apt install lxappearance papirus-icon-theme fonts-inter
 sudo lxappearance
 ```
 
