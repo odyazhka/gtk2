@@ -1,7 +1,7 @@
 style "colored_menu"
 {
-  bg[NORMAL] = "#D1E8FF"  # Тот самый нежно-голубой
-  bg[PRELIGHT] = "#A0CFFE" # Цвет при наведении
+  bg[NORMAL] = "#f2f5ff"  # Тот самый нежно-голубой
+  bg[PRELIGHT] = "#e8edff" # Цвет при наведении
 }
 widget_class "*Menu*" style "colored_menu"
 widget_class "*MenuBar*" style "colored_menu"
