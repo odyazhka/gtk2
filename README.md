@@ -38,3 +38,5 @@ sudo cp ~/pavucontrol-qt.desktop /usr/share/applications/
 sudo rm /usr/share/pixmaps/backlight-brightness.png
 sudo cp  ~/backlight-brightness.png /usr/share/pixmaps/
 ```
+
+В *~/.config/tint2/* вставить файл tint2rc
