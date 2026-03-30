@@ -1,4 +1,9 @@
-# gtk2
+# antix-win11
+
+## Скриншот
+![image](https://github.com/user-attachments/assets/3dcd947f-03ee-4a23-a89f-b30782b051eb)
+
+## Установка
 
 #### 1. Установить нужные пакеты:
 
