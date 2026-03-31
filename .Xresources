@@ -6,12 +6,6 @@
 ! Копировать выделенное сразу в системный буфер обмена
 XTerm*selectToClipboard: true
 
-! Разрешить использование стандартных горячих клавиш (опционально)
-XTerm*translations: #override \
-    Shift <Key>Insert: insert-selection(CLIPBOARD) \n\
-    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
-    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
-
 ! Set the default UI font (menus, toolbar, etc)
 XTerm*XftFont:                  Inter:size=10:antialias=true:style=Regular
 
