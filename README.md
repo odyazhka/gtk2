@@ -53,3 +53,20 @@ sudo cp  ~/antix.png /usr/share/applications
 В *~/.config/tint2/* вставить файл tint2rc
 
 Запустить, проверить
+
+#### 5. Установка терминала xterm:
+
+1. Установить xterm
+
+``` sudo apt install xterm ```
+
+2. Скачанный файл .Xresources переместить в домашнюю директорию
+
+3. Применить конфиг командой
+
+```xrdb -merge ~/.Xresurces ```
+
+Удалить UXTerm:
+
+``` sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm ```
+
