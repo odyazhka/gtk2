@@ -55,11 +55,11 @@ sudo lxappearance
 Скачать файлы backlight-brightness.png, audio.png и pavucontrol-qt.desktop. Переместить их в домашнюю директорию и заменить командами:
 
 ```
-sudo cp ~/audio.png /usr/share/applications/
-sudo cp ~/pavucontrol-qt.desktop /usr/share/applications/
+sudo mv ~/audio.png /usr/share/applications/
+sudo mv ~/pavucontrol-qt.desktop /usr/share/applications/
 sudo rm /usr/share/pixmaps/backlight-brightness.png
-sudo cp  ~/backlight-brightness.png /usr/share/pixmaps/
-sudo cp  ~/antix.png /usr/share/applications
+sudo mv  ~/backlight-brightness.png /usr/share/pixmaps/
+sudo mv  ~/antix.png /usr/share/applications
 ```
 
 В *~/.config/tint2/* вставить файл tint2rc
