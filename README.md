@@ -7,7 +7,7 @@
 
 #### 1. Установить нужные пакеты:
 
-``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad pulseaudio pavucontrol-qt acpi xterm ```
+``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad pulseaudio pavucontrol-qt acpi xterm iwd ```
 
 #### 2. Создать файл .Xinitrc
 
@@ -68,15 +68,31 @@ sudo mv  ~/antix.png /usr/share/applications
 
 #### 6. Установка терминала xterm:
 
-1. Установить xterm если ещё нет
+Установить xterm если ещё нет
 
-2. Скачанный файл .Xresources переместить в домашнюю директорию
+Скачанный файл .Xresources переместить в домашнюю директорию
 
-3. Применить конфиг командой
+Применить конфиг командой
 
 ```xrdb -merge ~/.Xresurces ```
 
 Удалить UXTerm и создать символическую ссылку на него:
 
 ``` sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm ```
+
+
+#### 7. Уствновка скрипта для вайфая:
+
+Переместить скрипт wifi.sh и wifi.png и wifi.desktop в домашниюю директорию
+
+Сделать скрипт исполняемем:
+
+``` sudo chmod +x ~/wifi.sh ```
+
+Переместить wifi.png и wifi.desktop командой:
+
+```
+sudo mv ~/wifi.png /usr/share/applications/
+sudo mv ~/wifi.desktop /usr/share/applications/
+```
 
