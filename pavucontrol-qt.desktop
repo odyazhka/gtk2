@@ -1,4 +1,5 @@
 [Desktop Entry]
+Name=Громкость
 Version=1.0
 Exec=pavucontrol-qt
 Icon=/usr/share/applications/audio.png
