@@ -18,7 +18,7 @@
 
 ``` icewm-session ```
 
-#### 2. Добавить конфиги:
+#### 3. Добавить конфиги:
 
 Скачать все файлы, распаковать архив
 
@@ -37,7 +37,7 @@
 
 Нажать ПКМ > Настройки > Темы > IceW11
 
-#### 3. Установление gtk-темы
+#### 4. Установление gtk-темы
 
 Скачать gtk тему отсюда: https://www.gnome-look.org/p/2278411
 
@@ -50,7 +50,7 @@ sudo lxappearance
 
 Установитиь шрифт Inter и тему Win11
 
-#### 4. Замена иконок звука и громкости
+#### 5. Замена иконок звука и громкости
 
 Скачать файлы backlight-brightness.png, audio.png и pavucontrol-qt.desktop. Переместить их в домашнюю директорию и заменить командами:
 
@@ -66,11 +66,9 @@ sudo cp  ~/antix.png /usr/share/applications
 
 Запустить, проверить
 
-#### 5. Установка терминала xterm:
+#### 6. Установка терминала xterm:
 
-1. Установить xterm
-
-``` sudo apt install xterm ```
+1. Установить xterm если ещё нет
 
 2. Скачанный файл .Xresources переместить в домашнюю директорию
 
@@ -78,7 +76,7 @@ sudo cp  ~/antix.png /usr/share/applications
 
 ```xrdb -merge ~/.Xresurces ```
 
-Удалить UXTerm:
+Удалить UXTerm и создать символическую ссылку на него:
 
 ``` sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm ```
 
