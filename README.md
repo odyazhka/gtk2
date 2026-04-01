@@ -9,6 +9,15 @@
 
 ``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad pulseaudio pavucontrol-qt acpi xterm ```
 
+#### 2. Создать файл .Xinitrc
+
+
+``` sudo nano .Xinitrc ```
+
+И написать там:
+
+``` icewm-session ```
+
 #### 2. Добавить конфиги:
 
 Скачать все файлы, распаковать архив
