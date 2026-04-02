@@ -1,8 +1,41 @@
-style "colored_menu"
+style "blue_theme"
 {
-  bg[NORMAL] = "#f2f5ff"  # Тот самый нежно-голубой
-  bg[PRELIGHT] = "#e8edff" # Цвет при наведении
-  fg[PRELIGHT] = "#000000" # Чёрный цвет текста при наведении
+  # Основные цвета фона
+  bg[NORMAL]      = "#f2f5ff"  # Тот самый нежно-голубой
+  bg[PRELIGHT]    = "#e8edff"  # Цвет при наведении
+  bg[ACTIVE]      = "#dce4ff"  # Цвет при нажатии
+  bg[SELECTED]    = "#c6d4ff"  # Цвет выделения
+  bg[INSENSITIVE] = "#f2f5ff"  # Цвет неактивных элементов
+
+  # Цвета базовых поверхностей (поля ввода, списки)
+  base[NORMAL]    = "#ffffff"  # Белый фон для текста (можно заменить на #f2f5ff)
+  base[PRELIGHT]  = "#e8edff"
+  base[ACTIVE]    = "#c6d4ff"
+  base[SELECTED]  = "#c6d4ff"
+  base[INSENSITIVE] = "#f2f5ff"
+
+  # Цвета текста
+  fg[NORMAL]      = "#000000"
+  fg[PRELIGHT]    = "#000000"
+  fg[ACTIVE]      = "#000000"
+  fg[SELECTED]    = "#000000"
+  fg[INSENSITIVE] = "#757575"
+
+  text[NORMAL]    = "#000000"
+  text[PRELIGHT]  = "#000000"
+  text[ACTIVE]    = "#000000"
+  text[SELECTED]  = "#000000"
+  text[INSENSITIVE] = "#757575"
 }
+
+# Применяем стиль ко всем виджетам (убирает серый цвет везде)
+widget_class "*" style "blue_theme"
+
+# Отдельная настройка для меню и баров (как в вашем примере)
+style "colored_menu" = "blue_theme"
+{
+  # Здесь можно уточнить специфичные параметры для меню, если нужно
+}
+
 widget_class "*Menu*" style "colored_menu"
 widget_class "*MenuBar*" style "colored_menu"
