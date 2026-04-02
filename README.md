@@ -22,11 +22,15 @@
 
 Скачать все файлы, распаковать архив
 
-Поместить файл .gtlrc в *~/*
+Поместить файл .gtkrc в *~/*
+
+Поместить файл logout.sh в *~/*
 
 Поместить файл gtk.css в *~/.config/gtk-3.0/*
 
 Поместить папку jgmenu в *~/.config/*
+
+Поместить файл wifi.sh в *~/*
 
 Файл startup переместить в *~/.icewm/*
 
@@ -38,6 +42,8 @@
 ```
 sudo chmod +x ~/.icewm/startup
 sudo chmod +x ~/.icewm/keys
+sudo chmod +x ~/logout.sh
+sudo chmod +x ~/wifi.sh
 ```
 
 Нажать ПКМ > Настройки > Темы > IceW11
