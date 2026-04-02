@@ -1,0 +1,2 @@
+#!/bin/bash
+key "Alt+Control+Delete" ~/logout.sh
