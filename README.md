@@ -20,68 +20,64 @@
 
 #### 3. Добавить конфиги:
 
-Скачать все файлы, распаковать архив
+Скачать все файлы, распаковать архив. Все файлы переместить в домашнюю директорию
 
-Поместить файл .gtkrc в *~/*
+Поместить файлs .gtkrc-2.0, logout.sh, wifi.sh,  в *~/*
 
-Поместить файл logout.sh в *~/*
+Переместить папку jgmenu в *~/.config/*
 
-Поместить файл gtk.css в *~/.config/gtk-3.0/*
-
-Поместить папку jgmenu в *~/.config/*
-
-Поместить файл wifi.sh в *~/*
-
-Файл startup переместить в *~/.icewm/*
-
-Файл keys переместить в *~/.icewm/*
+Файлы startup и keys переместить в *~/.icewm/*
 
 Папку IceW11 переместить в *~/.icewm/themes/*
 
-Сделать файл автозапуска исполняемым:
+```
+sudo mv ~/.gtkrc-2.0 ~/.config/
+sudo mv ~/startup ~/.icewm/
+sudo mv ~/keys ~/.icewm/
+sudo mv ~/IceW11 ~/.icewm/themes/
+sudo mv ~/tint2rc  ~/.config/tint2/
+```
+
+Сделать скрипты исполняемым:
 ```
 sudo chmod +x ~/.icewm/startup
 sudo chmod +x ~/.icewm/keys
+sudo chmod +x ~/.icewm/preferences
 sudo chmod +x ~/logout.sh
 sudo chmod +x ~/wifi.sh
+
 ```
 
 Нажать ПКМ > Настройки > Темы > IceW11
 
 #### 4. Установление gtk-темы
 
-Скачать gtk тему отсюда: https://www.gnome-look.org/p/2278411
-
 Установить иконки и шрифты:
 
 ```
-sudo apt install lxappearance papirus-icon-theme fonts-inter
-sudo lxappearance
+sudo apt install papirus-icon-theme fonts-inter
 ```
 
-Установитиь шрифт Inter и тему Win11
+Установитиь шрифт Inter и тему IceW11
 
 #### 5. Замена иконок звука и громкости
 
-Скачать файлы backlight-brightness.png, audio.png и pavucontrol-qt.desktop. Переместить их в домашнюю директорию и заменить командами:
+Добавить ярлыки и иконки командами:
 
 ```
 sudo mv ~/audio.png /usr/share/applications/
 sudo mv ~/pavucontrol-qt.desktop /usr/share/applications/
 sudo rm /usr/share/pixmaps/backlight-brightness.png
 sudo mv  ~/backlight-brightness.png /usr/share/pixmaps/
-sudo mv  ~/antix.png /usr/share/applications
+sudo mv  ~/antix.png /usr/share/applications/
+sudo mv  ~/wifi.png /usr/share/applications/
+sudo mv  ~/wifi.desktop /usr/share/applications/
 ```
-
-В *~/.config/tint2/* вставить файл tint2rc
-
-Запустить, проверить
 
 #### 6. Установка терминала xterm:
 
 Установить xterm если ещё нет
 
-Скачанный файл .Xresources переместить в домашнюю директорию
 
 Применить конфиг командой
 
@@ -90,20 +86,3 @@ sudo mv  ~/antix.png /usr/share/applications
 Удалить UXTerm и создать символическую ссылку на него:
 
 ``` sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm ```
-
-
-#### 7. Уствновка скрипта для вайфая:
-
-Переместить скрипт wifi.sh и wifi.png и wifi.desktop в домашниюю директорию
-
-Сделать скрипт исполняемем:
-
-``` sudo chmod +x ~/wifi.sh ```
-
-Переместить wifi.png и wifi.desktop командой:
-
-```
-sudo mv ~/wifi.png /usr/share/applications/
-sudo mv ~/wifi.desktop /usr/share/applications/
-```
-
