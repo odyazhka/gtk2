@@ -17,6 +17,10 @@
 
 ``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd yad ```
 
+Удалить ceni:
+
+``` sudo apt purge ceni ```
+
 #### 2. Создать файл .Xinitrc
 
 ``` sudo nano .Xinitrc ```
