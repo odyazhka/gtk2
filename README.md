@@ -100,3 +100,16 @@ sudo mv  ~/poisk.png /usr/share/applications/
 
 ``` sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm ```
 
+#### 7. Сократить длинные название приложений
+
+чтобы jgmenu не разъезжалось
+
+```
+sudo rm /usr/share/applications/antiX-cli-cc.desktop
+sudo mv  ~/antiX-cli-cc.desktop /usr/share/applications/
+sudo rm /usr/share/applications/chroot-rescue-scan.desktop
+sudo mv  ~/chroot-rescue-scan.desktop /usr/share/applications/
+sudo rm /usr/share/applications/cli-aptiX.desktop
+sudo mv  ~/cli-aptiX.desktop /usr/share/applications/
+sudo rm /usr/share/applications/persist_save.desktop
+sudo mv  ~/persist_save.desktop /usr/share/applications/
