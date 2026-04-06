@@ -60,10 +60,10 @@ sudo chmod +x ~/wifi.sh
 
 Нажать ПКМ > Настройки > Темы > IceW11
 
-#### 4. Установить иконки и шрифты:
+#### 4. Установить шрифты:
 
 ```
-sudo apt install papirus-icon-theme fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
+sudo apt install fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
 ```
 
 #### 5. Добавление иконок громкости, яркости и Wi-Fi
