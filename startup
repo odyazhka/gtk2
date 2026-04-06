@@ -1,8 +1,6 @@
 #!/bin/bash
+zzzfm --desktop &
 GTK2_RC_FILES=$HOME/.gtkrc-2.0
 setxkbmap -layput us,ru -option grp:alt_shift_toggle &
-zzzfm --desktop &
 tint2 &
-pulseaudio &
 xrdb -merge ~/.Xresources &
-xrandr --output eDP-1 --mode "1280x720" &
