@@ -82,6 +82,7 @@ sudo rm /usr/share/pixmaps/backlight-brightness.png
 sudo mv  ~/backlight-brightness.png /usr/share/pixmaps/
 sudo mv  ~/antix.png /usr/share/applications/
 sudo mv  ~/wifi.png /usr/share/applications/
+sudo mv  ~/poisk.png /usr/share/applications/
 sudo mv  ~/wifi.desktop /usr/share/applications/
 
 ```
