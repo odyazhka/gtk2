@@ -1,5 +1,5 @@
 sudo apt update -y
-sudo apt install -y xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd yad fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
+sudo apt install -y tint2 jgmenu leafpad qasmixer acpi xterm iwd yad fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
 sudo apt purge -y ceni
 sudo mkdir -p $HOME/.icewm/themes
 sudo mkdir -p $HOME/.config/tint2
