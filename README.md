@@ -13,13 +13,9 @@
 
 ## Установка
 
-#### 1. Установить нужные пакеты:
+#### 1. Установить IceWM:
 
-``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd yad ```
-
-Удалить ceni:
-
-``` sudo apt purge ceni ```
+``` sudo apt install xorg xinit icewm icewm-common ```
 
 #### 2. Создать файл .Xinitrc
 
@@ -28,6 +24,21 @@
 И написать там:
 
 ``` icewm-session ```
+
+#### 3. Запустить скрипт install.sh
+
+```
+sudo chmod +x ~/install.sh
+~/install.sh
+```
+
+#### 3. Установить пакеты:
+
+``` sudo apt install zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd yad ```
+
+Удалить ceni:
+
+``` sudo apt purge ceni ```
 
 #### 3. Добавить конфиги:
 
@@ -113,3 +124,4 @@ sudo rm /usr/share/applications/cli-aptiX.desktop
 sudo mv  ~/cli-aptiX.desktop /usr/share/applications/
 sudo rm /usr/share/applications/persist_save.desktop
 sudo mv  ~/persist_save.desktop /usr/share/applications/
+```
