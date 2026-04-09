@@ -1,0 +1,62 @@
+/* Определяем переменные для удобства (аналог вашей секции style) */
+@define-color blue_bg #f2f5ff;
+@define-color blue_hover #e8edff;
+@define-color blue_active #dce4ff;
+@define-color blue_selected #c6d4ff;
+@define-color disabled_text #757575;
+
+/* Применяем глобальный шрифт */
+* {
+    font-family: "Inter", sans-serif;
+    font-size: 10pt;
+}
+
+/* Основной фон окон и виджетов (аналог bg[NORMAL]) */
+window, 
+grid, 
+box, 
+stack {
+    background-color: @blue_bg;
+    color: #000000;
+}
+
+/* Поля ввода и списки (аналог base[NORMAL]) */
+entry, 
+textview, 
+list, 
+treeview {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Состояния элементов: наведение, нажатие, выделение */
+*:hover {
+    background-color: @blue_hover;
+}
+
+*:active {
+    background-color: @blue_active;
+}
+
+*:selected {
+    background-color: @blue_selected;
+    color: #000000;
+}
+
+/* Неактивные элементы */
+*:disabled {
+    color: @disabled_text;
+    background-color: @blue_bg;
+}
+
+/* Специфичные настройки для Меню и Баров (аналог "colored_menu") */
+menubar, 
+menu, 
+menuitem {
+    background-color: @blue_bg;
+    color: #000000;
+}
+
+menubar > menuitem:hover {
+    background-color: @blue_hover;
+}
